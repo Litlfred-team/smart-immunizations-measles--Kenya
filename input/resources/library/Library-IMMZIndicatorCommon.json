@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZIndicatorCommon",
+  "url": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZIndicatorCommon",
   "name": "IMMZIndicatorCommon",
   "type": {
     "coding": [ {
@@ -22,27 +22,27 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/FHIRCommon"
   }, {
     "type": "depends-on",
     "display": "Library IMMZCom",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZCommon"
   }, {
     "type": "depends-on",
     "display": "Library IMMZc",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConcepts"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZConcepts"
   }, {
     "type": "depends-on",
     "display": "Library WCom",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/WHOCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/WHOConcepts"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/WHOConcepts"
   }, {
     "type": "depends-on",
     "display": "Code system ISO-8601-Derived Periods",

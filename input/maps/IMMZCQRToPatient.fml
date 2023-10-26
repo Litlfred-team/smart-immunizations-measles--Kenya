@@ -1,12 +1,12 @@
-map "http://smart.who.int/ig/smart-immunizations-measles/StructureMap/IMMZCQRToPatient" = "IMMZCQRToPatient"
+map "http://health.go.ke/ig/smart-immunizations-measles/StructureMap/IMMZCQRToPatient" = "IMMZCQRToPatient"
 
 uses "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse" alias QResp as source
-uses "http://smart.who.int/ig/smart-immunizations-measles/StructureDefinition/IMMZCRegisterClient" alias IMMZC as source
+uses "http://health.go.ke/ig/smart-immunizations-measles/StructureDefinition/IMMZCRegisterClient" alias IMMZC as source
 uses "http://hl7.org/fhir/StructureDefinition/Bundle" as target
 uses "http://hl7.org/fhir/StructureDefinition/Patient" as target
 
-imports "http://smart.who.int/ig/smart-immunizations-measles/StructureMap/IMMZCQRToLM"
-imports "http://smart.who.int/ig/smart-immunizations-measles/StructureMap/IMMZCLMToPatient"
+imports "http://health.go.ke/ig/smart-immunizations-measles/StructureMap/IMMZCQRToLM"
+imports "http://health.go.ke/ig/smart-immunizations-measles/StructureMap/IMMZCLMToPatient"
 
 group QRestToIMMZC (
   source qr : QResp,

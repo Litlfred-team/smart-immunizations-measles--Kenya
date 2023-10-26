@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://smart.who.int/ig/smart-immunizations-measles/Library/WHOCommon",
+  "url": "http://health.go.ke/ig/smart-immunizations-measles/Library/WHOCommon",
   "name": "WHOCommon",
   "type": {
     "coding": [ {
@@ -22,11 +22,11 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/FHIRCommon"
   } ],
   "parameter": [ {
     "name": "Patient",

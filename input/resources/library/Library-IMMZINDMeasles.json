@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZINDMeasles",
+  "url": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZINDMeasles",
   "name": "IMMZINDMeasles",
   "type": {
     "coding": [ {
@@ -22,35 +22,35 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library IMMZCom",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZCommon"
   }, {
     "type": "depends-on",
     "display": "Library IMMZc",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConcepts"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZConcepts"
   }, {
     "type": "depends-on",
     "display": "Library IMMZCon",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConfig"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZConfig"
   }, {
     "type": "depends-on",
     "display": "Library IMMZIndCom",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZIndicatorCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZIndicatorCommon"
   }, {
     "type": "depends-on",
     "display": "Library IMMZvl",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZVaccineLibrary"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZVaccineLibrary"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/FHIRCommon"
   }, {
     "type": "depends-on",
     "display": "Library Measles",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZD2DTMeasles"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZD2DTMeasles"
   }, {
     "type": "depends-on",
     "display": "Code system Administrative Gender Codes",
@@ -62,7 +62,7 @@
   }, {
     "type": "depends-on",
     "display": "Value set MCV Vaccine",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/ValueSet/IMMZ.A1.DE9"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/ValueSet/IMMZ.A1.DE9"
   } ],
   "parameter": [ {
     "name": "Measurement Period",

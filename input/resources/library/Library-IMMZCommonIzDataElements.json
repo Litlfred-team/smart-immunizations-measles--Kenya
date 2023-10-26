@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZCommonIzDataElements",
+  "url": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZCommonIzDataElements",
   "name": "IMMZCommonIzDataElements",
   "type": {
     "coding": [ {
@@ -22,23 +22,23 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library WCom",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/WHOCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Library IMMZCom",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZCommon"
   }, {
     "type": "depends-on",
     "display": "Library IMMZc",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConcepts"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZConcepts"
   }, {
     "type": "depends-on",
     "display": "Library IMMZvl",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZVaccineLibrary"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZVaccineLibrary"
   }, {
     "type": "depends-on",
     "display": "Code system Vaccines Administered",

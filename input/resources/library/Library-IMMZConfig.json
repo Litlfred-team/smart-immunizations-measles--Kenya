@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConfig",
+  "url": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZConfig",
   "name": "IMMZConfig",
   "type": {
     "coding": [ {
@@ -22,7 +22,7 @@
   }, {
     "type": "depends-on",
     "display": "Library IMMZc",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConcepts"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZConcepts"
   } ],
   "parameter": [ {
     "name": "Patient",

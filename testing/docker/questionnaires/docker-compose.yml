@@ -36,7 +36,7 @@ services:
 
   web:
     image: nginx:alpine
-    container_name: webserver    
+    container_name: webserver2    
     volumes:
       - ./nginx-content:/usr/share/nginx/html                         
       - ../../../output:/tmp/output      
@@ -52,5 +52,4 @@ services:
       rm -rf smart-ig-starter-kit && \
       git clone https://github.com/WorldHealthOrganization/smart-ig-starter-kit.git && \
       cp -r /tmp/smart-ig-starter-kit/testing/app/* /usr/share/nginx/html/ && \
-      if [ -d /tmp/output ] ; then mkdir /usr/share/nginx/html/output/; cp -r /tmp/output/* /usr/share/nginx/html/output/; fi && \
       nginx -g 'daemon off;'"

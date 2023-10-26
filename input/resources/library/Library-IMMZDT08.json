@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZDT08",
+  "url": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZDT08",
   "name": "IMMZDT08",
   "type": {
     "coding": [ {
@@ -22,39 +22,39 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library IMMZCom",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZCommon"
   }, {
     "type": "depends-on",
     "display": "Library IMMZc",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConcepts"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZConcepts"
   }, {
     "type": "depends-on",
     "display": "Library IMMZCon",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConfig"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZConfig"
   }, {
     "type": "depends-on",
     "display": "Library IMMZvl",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZVaccineLibrary"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/IMMZVaccineLibrary"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/FHIRCommon"
   }, {
     "type": "depends-on",
     "display": "Library Wcon",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/WHOConcepts"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/WHOConcepts"
   }, {
     "type": "depends-on",
     "display": "Library WCom",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/Library/WHOCommon"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Code system IMMZ.D4",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/CodeSystem/IMMZ.D4"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/CodeSystem/IMMZ.D4"
   }, {
     "type": "depends-on",
     "display": "Value set Pregnancy Status Pregnant",
@@ -62,11 +62,11 @@
   }, {
     "type": "depends-on",
     "display": "Value set MCV Vaccine",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/ValueSet/IMMZ.A1.DE9"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/ValueSet/IMMZ.A1.DE9"
   }, {
     "type": "depends-on",
     "display": "Value set HIV status",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/ValueSet/HIVstatus-values"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/ValueSet/HIVstatus-values"
   }, {
     "type": "depends-on",
     "display": "Value set HIV status - HIV positive Choices",
@@ -74,11 +74,11 @@
   }, {
     "type": "depends-on",
     "display": "Value set ARV Drugs",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/ValueSet/ARVDrugs-values"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/ValueSet/ARVDrugs-values"
   }, {
     "type": "depends-on",
     "display": "Value set Live Attenuated",
-    "resource": "http://smart.who.int/ig/smart-immunizations-measles/ValueSet/LiveAttenduatedVaccines"
+    "resource": "http://health.go.ke/ig/smart-immunizations-measles/ValueSet/LiveAttenduatedVaccines"
   } ],
   "parameter": [ {
     "name": "Individual is at high risk of contracting measles",
@@ -274,7 +274,7 @@
     "mustSupport": [ "code", "status", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://smart.who.int/ig/smart-immunizations-measles/ValueSet/HIVstatus-values"
+      "valueSet": "http://health.go.ke/ig/smart-immunizations-measles/ValueSet/HIVstatus-values"
     } ]
   }, {
     "type": "Condition",
