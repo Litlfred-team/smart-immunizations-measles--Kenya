@@ -1,4 +1,4 @@
-map "http://health.go.ke/ig/smart-immunizations-measles/StructureMap/IMMZCQRToLM" = "IMMZCQRToLM"
+map "http://smart.who.int/ig/smart-immunizations-measles/StructureMap/IMMZCQRToLM" = "IMMZCQRToLM"
 
 uses "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse" alias QResp as source
 uses "http://health.go.ke/ig/smart-immunizations-measles/StructureDefinition/IMMZCRegisterClient" alias IMMZC as target
@@ -45,14 +45,14 @@ group QRespToIMMZC ( source qr : QResp, target immzc : IMMZC) {
 }
 
 group NameToIMMZC( source name, target immzc) {
-  name.item as item then {
+  name.item as item then{
     item.answer first as answer where item.linkId = 'firstName' then {
-      answer.value as firstName -> firstName then {
-        item.answer first as answer2 where item.linkId = 'surname' then {
-        answer2.value as surname -> immzc.name = append(firstName, surname) "set name";
-        } "set";
-      } "set";
+      answer.value as firstName -> immzc.name = firstName "set";
     } "FirstAnswerForFullName";
+
+    item.answer first as answer where item.linkId = 'familyName' then {
+      answer.value as familyName -> immzc.name as rname, immzc.name = append(rname, familyName) "set";
+    } "set";
 
 //    item.answer first as answer where item.linkId = 'firstName' then {
 //      answer.value as content -> immzc.firstName = content "SetFirstName";
@@ -63,4 +63,4 @@ group NameToIMMZC( source name, target immzc) {
 //    } "FirstAnswerForFamilyName";
 
   } "processNameItems";
-}
+} 
